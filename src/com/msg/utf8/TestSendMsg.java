@@ -6,11 +6,11 @@ package com.msg.utf8;
  */
 public class TestSendMsg {
 	//用户名
-	private static String Uid = "uid";
-	//接口安全秘钥
-	private static String Key = "key";
+	private static String Uid = "wbbhappy";
+	//接口安全秘钥(登录密码：111111)
+	private static String Key = "d41d8cd98f00b204e980";
 	//手机号码，多个号码如13800000000,13800000001,13800000002
-	private static String smsMob = "13800000000";
+	private static String smsMob = "15100317880";
 	//短信内容
 	private static String smsText = "验证码：8888";
 	

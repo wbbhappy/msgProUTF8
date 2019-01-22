@@ -11,7 +11,7 @@ public class SMSTest {
     private static final String userId = "w3378883500";
     /*
      * 如uid是：w3378883500，登录密码是：k26f24
-     * pwd=md5(k26f24),即pwd=20b47d8276c762db74b7430e06bad173
+     * pwd=md5(k26f24),即pwd=20b47d8276c762db74b7430e06bad173(接口密码中获取接口密码)
      */
     private static final String pwd = "20b47d8276c762db74b7430e06bad173";
     private static final String encode = "utf8";

@@ -19,7 +19,7 @@ import java.util.HashMap;
  */
 public class SimpleClientExample {
     /**
-     * 第三方平台网址：https://openresty.com/cn/
+     * 第三方平台网址：https://openresty.com/cn/，用户名：guest_32a1165e，密码：f449de69
      */
     private String mtUrl="http://esms.10690007.net/sms/mt";
     /**
@@ -27,12 +27,12 @@ public class SimpleClientExample {
      */
     public HashMap<String,String> testSingleMt(){
         String command = "MT_REQUEST";                                  //行请求指令
-        String spid = "1234";                                            //账号
-        String sppassword = "1234";                                     //密码
+        String spid = "guest_32a1165e";                                //账号
+        String sppassword = "f449de69";                                 //密码
         String spsc = "00";                                             //SP服务代码，默认为00
         String sa = "10657109053657";                                  //源地址，默认为10657109066558
         //String da = "8613211112121";                                   //目标号码
-        String da = "15100317880";                                   //目标号码
+        String da = "15100317880";                                      //目标号码
         int dc = 15;                                                    //内容的编码格式
         String sm = encodeHexStr(dc,"我的第一条短信发送成功了吗？");    //GBK编码方式
         String smsUrl = mtUrl + "?command=" + command + "&spid=" + spid + "&sppassword=" + sppassword
