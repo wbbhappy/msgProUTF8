@@ -140,6 +140,7 @@ public class HttpClientUtil {
 		maps.put("Key", Key);
 		maps.put("smsMob", mobiles);
 		maps.put("smsText", content);
+        //第三方平台网址：http://www.smschinese.cn/api.shtml，中国网建SMS短信通
 		String result = sendHttpPost("http://utf8.sms.webchinese.cn", maps, "utf-8");
 		return Integer.parseInt(result);
     }
@@ -164,6 +165,7 @@ public class HttpClientUtil {
 		maps.put("Key", Key);
 		maps.put("smsMob", mobiles);
 		maps.put("smsText", content);
+        //第三方平台网址：http://www.smschinese.cn/api.shtml，中国网建SMS短信通
 		String result = sendHttpPost("http://gbk.sms.webchinese.cn", maps, "gbk");
 		return Integer.parseInt(result);
     }

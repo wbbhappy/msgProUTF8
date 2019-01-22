@@ -18,6 +18,9 @@ import java.util.HashMap;
  * @since 1.5
  */
 public class SimpleClientExample {
+    /**
+     * 第三方平台网址：https://openresty.com/cn/
+     */
     private String mtUrl="http://esms.10690007.net/sms/mt";
     /**
      * 单条内容单个号码
