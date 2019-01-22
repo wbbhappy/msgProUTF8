@@ -42,7 +42,7 @@ public class SMSTest {
             // &mobile=15100317880&encode=utf8&content=你好！您的验证码：{8888}。如非本人操作，可不用理会！【河北汉佳】
             send("你好！您的验证码：{8888}。如非本人操作，可不用理会！【河北汉佳】", "15100317880");
             //json发送路径：http://api.sms.cn/sms/?ac=send&uid=w3378883500&pwd=20b47d8276c762db74b7430e06bad173
-            // $template=492675&mobile=15100317880&content={"name":"test","code":"8888"}
+            // &template=492675&mobile=15100317880&content={"name":"test","code":"8888"}
         } catch (Exception e) {
             e.printStackTrace();
         }
